@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36809" started-at="2019-03-12T05:52:54Z" finished-at="2019-03-12T05:53:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36809" started-at="2019-03-12T05:52:54Z" finished-at="2019-03-12T05:53:31Z">
+      <class name="com.maveric.test.ConnectLoginWIthAnnotationTest">
+        <test-method status="PASS" signature="initialisation(java.lang.String)[pri:0, instance:com.maveric.test.ConnectLoginWIthAnnotationTest@72b6cbcc]" name="initialisation" is-config="true" duration-ms="24121" started-at="2019-03-12T05:52:54Z" finished-at="2019-03-12T05:53:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method status="PASS" signature="positiveCredentialCheck()[pri:1, instance:com.maveric.test.ConnectLoginWIthAnnotationTest@72b6cbcc]" name="positiveCredentialCheck" duration-ms="10164" started-at="2019-03-12T05:53:18Z" finished-at="2019-03-12T05:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCredentialCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.maveric.test.ConnectLoginWIthAnnotationTest@72b6cbcc]" name="closeBrowser" is-config="true" duration-ms="2461" started-at="2019-03-12T05:53:28Z" finished-at="2019-03-12T05:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maveric.test.ConnectLoginWIthAnnotationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
