@@ -36,5 +36,6 @@ public class ConnectLoginWIthAnnotationTest extends LaunchActivies {
 			System.out.println("Not Matched");
 		}
 		Assert.assertEquals(titleafterlogin, expectedtitle, "Validations on PositiveCredentials check");
+		System.out.println("github");
 	}
 }
